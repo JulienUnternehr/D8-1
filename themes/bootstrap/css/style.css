@@ -1,0 +1,51 @@
+
+/*
+HEADER
+*/
+.page-header {
+  border-bottom: none;
+}
+header.navbar-default,
+header .region {
+  background: none;
+  border:none;
+}
+
+
+/*
+BODY
+*/
+body {
+  background:
+  url(../images/warhammer-40000-bg.jpg) no-repeat top left;
+  background-attachment:fixed;
+}
+
+
+.region {
+  background:#f5f5f5;
+  border-radius: 5px;
+}
+
+.region-content {
+  padding: 10px 10px 0px 10px;
+}
+
+
+/*
+FOOTER
+*/
+.footer {
+  border-top:none;
+}
+
+
+
+
+/*
+SUPRESSION LABEL TAXO RENDUE
+*/
+.views-field-field-univers-figurine h2 a,
+.views-field-field-armee-figurine h2 a  {
+  display: none;
+}

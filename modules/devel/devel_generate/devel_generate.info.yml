@@ -1,0 +1,13 @@
+type: module
+name: 'Devel generate'
+description: 'Generate dummy users, nodes, menus, taxonomy terms...'
+package: Development
+# core: 8.x
+tags:
+ - developer
+
+# Information added by Drupal.org packaging script on 2017-01-09
+version: '8.x-1.0-beta1+24-dev'
+core: '8.x'
+project: 'devel'
+datestamp: 1483990218

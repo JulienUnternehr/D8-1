@@ -1,0 +1,16 @@
+# Nom du module
+name: Hello
+# Description du module
+description : 'Hello module for D8 dev training'
+# Type de module
+type: module
+# Version Drupal
+core: 8.x
+# Version module
+version: 8.x-1.0
+# Package
+package: Training
+# Dépendances
+dependancies:
+  - views
+  - field
