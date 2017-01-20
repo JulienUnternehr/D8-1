@@ -5,10 +5,16 @@ HEADER
 .page-header {
   border-bottom: none;
 }
-header.navbar-default,
-header .region {
-  background: none;
-  border:none;
+header {
+  display: none;
+}
+
+
+/*
+LOGO
+*/
+.region-sidebar-second .view-vue-logo .views-field-field-logo {
+  padding-bottom: 20px;
 }
 
 
@@ -19,6 +25,7 @@ body {
   background:
   url(../images/warhammer-40000-bg.jpg) no-repeat top left;
   background-attachment:fixed;
+  background-size: cover;
 }
 
 
@@ -49,3 +56,40 @@ SUPRESSION LABEL TAXO RENDUE
 .views-field-field-armee-figurine h2 a  {
   display: none;
 }
+
+
+/*
+BACKGROUNDS / PAGE
+*/
+body.path-taxonomy-term-7,
+body.path-node-6,
+body.path-node-5,
+body.path-node-4,
+body.path-node-3,
+body.path-node-2
+{
+  background:url(../images/bg-tyty.jpg);
+  background-attachment:fixed;
+  background-size: cover;
+}
+
+body.path-taxonomy-term-15,
+body.path-node-7,
+body.path-node-10,
+body.path-node-9,
+body.path-node-11,
+body.path-node-8
+{
+  background:url(../images/bg-smc.jpg);
+  background-attachment:fixed;
+  background-size: cover;
+}
+
+body.path-taxonomy-term-8,
+body.path-node-14
+{
+  background:url(../images/bg-empire.jpg);
+  background-attachment:fixed;
+  background-size: cover;
+}
+
